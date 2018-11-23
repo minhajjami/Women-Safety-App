@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_health"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333535"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fittxt_1"
+        android:textColor="@color/pink"
+        android:text="1.Exercise is very important for the health and it will also reduces the  stress.Especially walking in the morning."
+
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/fittxt_2"
+        android:layout_marginTop="19dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fittxt_2"
+        android:textColor="@color/pink"
+        android:text="2.Avoid drinking alcohol and Don’t smoke or permit yourself to be presented to used smoke."
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/fittxt_1"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fittxt_3"
+        android:textColor="@color/pink"
+        android:text="3.A good sleep is also important at least 8 hours minimum."
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/fittxt_2"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fittxt_4"
+        android:textColor="@color/pink"
+        android:text="4.A pregnant women should wear comfortable dress which avoids stretch marks.1.Drinking a good quantity of water will remove all the bacteria from inside the body.Medications should be taken only if the prescription is given by the doctor."
+
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/fittxt_3"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

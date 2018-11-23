@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#333535"
+    >
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textSize="20dp"
+        android:textColor="@color/pink"
+        />
+
+    <EditText
+        android:id="@+id/TFusername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/username"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:background="#ffffff"
+        />
+    <TextView
+        android:id="@+id/emailsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_below="@id/TFusername"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/pink"
+        />
+
+    <EditText
+        android:id="@+id/TFemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/emailsu"
+        android:textSize="20dp"
+        android:layout_below="@+id/TFusername"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="59dp"
+        android:background="#ffffff"
+        />
+
+    <TextView
+        android:id="@+id/passsu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_below="@+id/emailsu"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/pink"
+        />
+
+    <EditText
+        android:id="@+id/TFpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/passsu"
+        android:textSize="20dp"
+        android:layout_below="@id/TFemail"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="#ffffff"
+        />
+    <TextView
+        android:id="@+id/Conpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Con. Pass"
+        android:layout_below="@id/passsu"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/pink"
+        />
+
+    <EditText
+        android:id="@+id/TFConpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/Conpass"
+        android:textSize="20dp"
+        android:layout_below="@id/TFpass"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18dp"
+        android:background="#ffffff"
+
+        />
+
+    <TextView
+        android:id="@+id/MobileNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile No"
+        android:layout_below="@id/Conpass"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/pink"
+        />
+
+    <EditText
+        android:id="@+id/TFMobileNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/MobileNo"
+        android:textSize="20dp"
+        android:layout_below="@id/TFConpass"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18dp"
+        android:background="#ffffff"
+        />
+    <TextView
+        android:id="@+id/EmMobileNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Emergency"
+        android:layout_below="@+id/MobileNo"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/pink"
+        />
+
+    <EditText
+        android:id="@+id/TFEmMobileNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/EmMobileNo"
+        android:textSize="20dp"
+        android:layout_below="@id/TFMobileNo"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:background="#ffffff"
+        />
+    <TextView
+        android:id="@+id/Message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message"
+        android:layout_below="@+id/EmMobileNo"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/pink"
+        />
+
+    <EditText
+        android:id="@+id/TFMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/Message"
+        android:textSize="20dp"
+        android:layout_below="@id/TFEmMobileNo"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="28dp"
+        android:background="#ffffff"
+        />
+    <TextView
+        android:id="@+id/BirthDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birth Date"
+        android:layout_below="@id/Message"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/pink"
+        />
+
+    <EditText
+        android:id="@+id/TFBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/BirthDate"
+        android:textSize="20dp"
+        android:layout_below="@id/TFMessage"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="22dp"
+        android:background="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/SignUp1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_below="@id/TFBirthDate"
+        android:layout_marginTop="40dp"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tips"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333535"
+    >
+
+    <Button
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/healthbtn"
+        android:text="Health Tips"
+        android:textColor="@color/pink"
+        android:background="#272b2d"
+
+        android:textSize="20dp"
+
+        android:layout_marginTop="83dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/fitnessbtn"
+        android:text="Fitness Tips"
+        android:textColor="@color/pink"
+        android:background="#272b2d"
+
+        android:textSize="20dp"
+
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/healthbtn"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/carebtn"
+        android:text="Baby Care Tips"
+        android:textColor="@color/pink"
+        android:background="#272b2d"
+
+        android:textSize="20dp"
+
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/pregnencybtn"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="500dp"
+        android:layout_height="50dp"
+        android:id="@+id/pregnencybtn"
+        android:text="Pregnency Tips"
+        android:textColor="@color/pink"
+        android:background="#272b2d"
+
+        android:textSize="20dp"
+
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/fitnessbtn"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
+
